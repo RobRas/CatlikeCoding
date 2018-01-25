@@ -1,9 +1,10 @@
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/Assets/AssetStoreTools*
+*/[Ll]ibrary/
+*/[Tt]emp/
+*/[Oo]bj/
+*/[Bb]uild/
+*/[Bb]uilds/
+*/Assets/AssetStoreTools*
+*/[Ee]xe/
 
 # Visual Studio 2015 cache directory
 /.vs/
@@ -32,3 +33,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+CatlikeCoding Basics/Assets/SteamVR/
