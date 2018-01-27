@@ -51,8 +51,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe7e2ff0cc1f8f48b635d0cc235d4f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenSpawns: 0.1
-  velocity: 15
+  timeBetweenSpawns:
+    min: 0.05
+    max: 0.15
+  scale:
+    min: 0.25
+    max: 1
+  randomVelocity:
+    min: 0
+    max: 3
+  angularVelocity:
+    min: 0
+    max: 4
+  velocity: 17
   stuffPrefabs:
   - {fileID: 114937078346620490, guid: 3e3290351b8deea4fb0d72e08a74c74b, type: 2}
   - {fileID: 114612064370732538, guid: 18753575abfdac344ac264e09e7e8557, type: 2}
+  - {fileID: 114871531356531530, guid: 555dbd6171baafa4f92a39106e1d8e1a, type: 2}
+  - {fileID: 114037228448387606, guid: d611f2580cd7fd04d8463c4c866ff320, type: 2}
+  - {fileID: 114937078346620490, guid: 3e3290351b8deea4fb0d72e08a74c74b, type: 2}
+  - {fileID: 114937078346620490, guid: 3e3290351b8deea4fb0d72e08a74c74b, type: 2}
+  - {fileID: 114612064370732538, guid: 18753575abfdac344ac264e09e7e8557, type: 2}
+  - {fileID: 114612064370732538, guid: 18753575abfdac344ac264e09e7e8557, type: 2}
+  - {fileID: 114937078346620490, guid: 3e3290351b8deea4fb0d72e08a74c74b, type: 2}
+  - {fileID: 114871531356531530, guid: 555dbd6171baafa4f92a39106e1d8e1a, type: 2}
+  StuffMaterial: {fileID: 0}
