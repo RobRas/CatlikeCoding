@@ -4,15 +4,11 @@ using UnityEngine;
 
 namespace Maze {
 	public class MazeWall : MazeCellEdge {
+		[SerializeField] Transform wall;
 
-		// Use this for initialization
-		void Start () {
-			
-		}
-		
-		// Update is called once per frame
-		void Update () {
-			
+		public override void Initialize(MazeCell cell, MazeCell otherCell, MazeDirection direction) {
+			base.Initialize(cell, otherCell, direction);
+			wall.GetComponent<Renderer>().material = cell.room.settings.wallMaterial;
 		}
 	}
 }
